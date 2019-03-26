@@ -1,0 +1,3 @@
+Live Server
+Bracket Pair Colorizer
+Prettier Code Formatter
