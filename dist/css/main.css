@@ -3,11 +3,13 @@
 
 body {
   background: #444;
-  color: #ffffff;
+  color: #fff;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
+  body#bg-img {
+    background: url(../img/background.jpg); }
 
 h1, h2, h3 {
   margin: 0;
@@ -19,6 +21,10 @@ h1, h2, h3 {
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
 
+a {
+  color: #fff;
+  text-decoration: none; }
+
 header {
   position: fixed;
   z-index: 2;
@@ -26,3 +32,14 @@ header {
 
 .text-secondary {
   color: #eece1a; }
+
+main {
+  padding: 4rem;
+  height: 100%; }
+  main .icons {
+    margin-top: 1rem; }
+    main .icons a {
+      padding: 0.4rem; }
+      main .icons a:hover {
+        color: #eece1a;
+        transition: all 0.5s ease-out; }
